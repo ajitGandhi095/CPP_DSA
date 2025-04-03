@@ -1,0 +1,1 @@
+ cout<< (5 and 10)<< endl;
