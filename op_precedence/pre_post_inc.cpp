@@ -21,6 +21,19 @@ int main() {
     // cout<< (a++) * (--b) << endl;
     // cout<< (--b) * (--a) <<endl;
 
+    // int a=5;
+    // cout<< (++a) * (++a) <<endl;
+
     int a=5;
-    cout<< (++a) * (++a) <<endl;
+    int b=10;
+
+    int ans1= (++a) * (--b);
+    int ans2= (++a) * (b--);
+    int ans3= (a++) * (--b);
+    int ans4= (a++) * (b--);
+
+    cout<< ans1 <<endl;
+    cout<< ans2 <<endl;
+    cout<< ans3 <<endl;
+    cout<< ans4 <<endl;
 }
